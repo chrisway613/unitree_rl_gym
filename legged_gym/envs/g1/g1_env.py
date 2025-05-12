@@ -1,9 +1,10 @@
-
-from legged_gym.envs.base.legged_robot import LeggedRobot
+import torch
 
 from isaacgym.torch_utils import *
 from isaacgym import gymtorch, gymapi, gymutil
-import torch
+
+from legged_gym.envs.base.legged_robot import LeggedRobot
+
 
 class G1Robot(LeggedRobot):
     
